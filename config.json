@@ -1,7 +1,7 @@
 {
   "bot": {
-    "token": "Bot token",
-    "oauth": "Bot OAuth URL, see wiki"
+    "token": "MzM5MjIwMjU4MDI2MTYwMTMx.DPZTww.HR0VLndvgCmXnEtfm5cWQkuM3RQ",
+    "oauth": "https://discordapp.com/oauth2/authorize?client_id=339220258026160131&scope=bot&permissions=2146958591"
   },
   "database": {
     "host": "localhost",
@@ -10,7 +10,7 @@
     "user": "admin"
   },
   "settings": {
-    "prefix": "anything can be entered as the global prefix, refer to installation guide",
+    "prefix": ".",
     "autodeletemsg": true,
     "deleteTimeout": 3000,
     "deleteTimeoutLong": 6000,
@@ -28,10 +28,10 @@
     }
   },
   "permissions": {
-    "master": ["you need to enter the ID from the user you want as master here", "you can extend this array like this if you need more"],
-    "level1": [],
-    "level2": [],
-    "level3": []
+    "master": [241723504620339201, 294977010311233537],
+    "level1": [241723504620339201, 294977010311233537],
+    "level2": [241723504620339201, 294977010311233537],
+    "level3": [241723504620339201, 294977010311233537]
   },
   "api_keys": {
     "imgflip": {
@@ -43,6 +43,6 @@
     "bugsnag": "A Bugsnag api key, Bugsnag tracker users only",
     "imgur": "A Imgur Client-ID",
     "cleverbot_user": "",
-    "cleverbot_key": ""
+    "cleverbot_key": "CC44d6tTee61Rg3Ew_v7fRvclGw"
   }
 }
